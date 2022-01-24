@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1350px;
+  }
+  @font-face {
+    font-family: "poppinsbold";
+    src: url("/fonts/Poppins-SemiBold.ttf") format("woff2"),
+      url("/fonts/Poppins-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "poppinssemibold";
+    src: url("/fonts/Poppins-SemiBold.ttf") format("ttf"),
+      url("/fonts/Poppins-SemiBold.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #home {
+      text-align: center;
+  }
+  header{
+    height: 60px;
+    background-color: rgb(222, 217, 243);
+}
+.footer{
+    background-color: rgb(223, 223, 223);
+    height: 370px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+img {
+    width: 100px;
+    display: block;
+    border-radius: 100px;
+    border: 1px solid rgb(0, 0, 0);
+}
+li {
+    margin-right: 100px;
+}
+ul li:last-child {
+    margin-right: 0px;
+}
+.staff {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+span {
+    font-size: 3rem;
+    font-family: "poppinsbold";
+}
+h4 {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-family: "poppinsbold";
+}
+h6 {
+    font-size: .9rem;
+    color: gray;
+    font-family: "poppinsbold";
+}
+.heading {
+    padding-top: 30px;
+}
+.staff {
+    padding-top: 50px;
+}
+button {
+    background-color: rgb(79, 79, 238);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+h6 {
+    padding-bottom: 5px;
+}
+@media all and (max-width:780px) {
+    li {
+        margin-right: 35px;
+        margin-bottom: 100px;
+        justify-content: center;
+    }
+    img {
+        width: 160px;
+        display: block;
+        border-radius: 100px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    ul li:nth-child(3) {
+        margin-right: 150px;
+    }
+    ul li:nth-child(1) {
+        margin-right: 150px;
+    }
+    ul li:nth-child(2) {
+        margin-right: 0px;
+    }
+    ul {
+        padding-bottom: 10px;
+    }
+}
+@media all and (max-width:522px) {
+    ul li:nth-child(1) {
+        padding-left: 150px;
+    }
+    ul li:nth-child(3) {
+        padding-left: 150px;
+    }
+
+}
+

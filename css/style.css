@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1350px;
+  }
+  @font-face {
+    font-family: "poppinsbold";
+    src: url("/fonts/Poppins-SemiBold.ttf") format("woff2"),
+      url("/fonts/Poppins-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "poppinssemibold";
+    src: url("./fonts/Poppins-SemiBold.ttf") format("ttf"),
+      url("./fonts/Poppins-SemiBold.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  span,h3{
+    font-family: "poppinsbold";  
+    color: rgb(44, 0, 0);
+  }
+h1{
+    font-family: "poppinsbold"; 
+  }
+  span{
+      color:rgb(255, 255, 255);
+      background-color: rgb(82, 119, 151); 
+      display: flex;
+      text-align: center;
+      padding: 10px;
+      border-radius: 20px;
+      justify-content: center;
+      display: inline;
+  }
+
+  a{
+      text-decoration: none;
+  }
+  header{
+      height: 60px;
+      background-color: rgb(222, 217, 243);
+  }
+  .heading{
+      padding-top: 30px;
+  }
+  .heading h1{
+      text-align: center;
+      justify-content: center;
+      font-size: 30px;
+      margin-bottom: 32px;
+      color: rgb(110, 39, 202);
+  }
+  .heading h4{
+      margin-left:12%;
+      font-size:25px ;
+      color: rgb(175, 29, 29);
+  }
+  .staff{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+  }
+  .staff .bEd{
+      width:360px ;
+      height:300px;
+      background-image:url(/images/edu.jpeg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin-right: 10%;
+      border-radius: 35px ;
+      border:1px solid rgb(158, 157, 157);
+      transition:all .5s ease-in-out;
+  }
+  .staff .dElEd{
+    width:360px ;
+    height:300px;
+    background-image:url(/images/edu.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border:1px solid rgb(158, 157, 157);
+    border-radius: 35px;
+    transition:all .5s ease-in-out;
+}
+.bEd h3{
+    text-align: center;
+    margin-top:35%;
+    margin-left: -7px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    
+}
+.dElEd h3{
+    text-align: center;
+    margin-top:35%;
+    margin-left: -7px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+transform:scale(1.1) ;
+}
+.footer{
+    background-color: rgb(223, 223, 223);
+    height: 370px;
+}
+@media all and (max-width: 1280px){
+    .heading h1{
+        font-size: 38px;
+    
+    }
+    .heading h4{
+        font-size:25px;
+    }
+
+}
+@media all and (max-width: 980px){
+    .heading h1{
+        font-size: 34px;
+    
+    }
+    .heading h4{
+        font-size:23px;
+    }
+    .staff .bEd{
+        margin-right: 13%;
+    }
+
+}
+@media all and (max-width: 768px){
+    .heading h1{
+        font-size: 25px;
+    
+    }
+    .heading h4{
+        font-size:19px;
+    }
+    .staff .bEd{
+        margin-right: 10%;
+        width: 300px;
+        height: 250px;
+
+    }
+    .staff .bEd h3{
+       font-size: 30px;
+    }
+    .staff .dElEd h3{
+        font-size: 30px;
+     }
+    .staff .dElEd{
+        width: 300px;
+        height: 250px;
+    }
+}
+@media all and (max-width: 640px) {
+    .heading h1{
+        font-size: 25px;
+    
+    }
+    .heading h4{
+        font-size:19px;
+        margin-left: 30px;
+    }
+    .staff .bEd{
+        margin-right: 10%;
+        width: 290px;
+        height: 220px;
+
+    }
+    .staff .bEd h3{
+       font-size: 30px;
+    }
+    .staff .dElEd h3{
+        font-size: 30px;
+     }
+    .staff .dElEd{
+        width: 290px;
+        height: 220px;
+    }
+}
+@media all and (max-width: 520px) {
+    .heading h1{
+        font-size: 25px;
+    
+    }
+    .heading h4{
+        font-size:19px;
+        margin-left: 25px;
+    }
+    .staff .bEd{
+        margin-right: 10%;
+        width: 290px;
+        height: 180px;
+    }
+    .staff .bEd h3{
+       font-size: 30px;
+    }
+    .staff .dElEd h3{
+        font-size: 30px;
+     }
+    .staff .dElEd{
+        width: 290px;
+        height: 180px;
+    }
+}
+@media all and (max-width: 480px) {
+
+    .heading h1{
+        font-size: 23px;
+    
+    }
+    .heading h4{
+        font-size:17px;
+        margin-left: 25px;
+    }
+    .staff{
+        flex-wrap: wrap;
+
+    }
+    .staff .bEd{
+        width: 350px;
+        height: 250px;
+        margin-bottom:14%;
+        margin-left:5px;
+        margin-right: 3px;
+
+    }
+    .staff .bEd h3{
+       font-size: 35px;
+       margin-top:37% ; 
+    }
+    .staff .dElEd h3{
+        font-size: 35px;
+        margin-top:37% ;
+     }
+    .staff .dElEd{
+        width: 410px;
+        height: 320px;
+        margin-left:5px;
+    }
+}
+@media all and (max-width: 424px) {
+
+    .heading h1{
+        font-size: 23px;
+    
+    }
+    .heading h4{
+        font-size:16px;
+        margin-left: 24px;
+    }
+    .staff{
+        flex-wrap: wrap;
+
+    }
+    .staff .bEd{
+        width: 410px;
+        height: 320px;
+        margin-bottom:14%;
+        margin-left:5px;
+        margin-right: 3px;
+
+    }
+    .staff .bEd h3{
+       font-size: 35px;
+       margin-top:37% ; 
+    }
+    .staff .dElEd h3{
+        font-size: 35px;
+        margin-top:37% ;
+     }
+    .staff .dElEd{
+        width: 410px;
+        height: 320px;
+        margin-left:5px;
+    }
+}
+@media all and (max-width: 360px) {
+
+    .heading h1{
+        font-size: 23px;
+    
+    }
+    .heading h4{
+        font-size:17px;
+        margin-left: 25px;
+    }
+    .staff{
+        flex-wrap: wrap;
+
+    }
+    .staff .bEd{
+        width: 410px;
+        height: 290px;
+        margin-bottom:14%;
+        margin-left:9px;
+        margin-right: 3px;
+
+    }
+    .staff .bEd h3{
+       font-size: 35px;
+       margin-top:40% ; 
+    }
+    .staff .dElEd h3{
+        font-size: 35px;
+        margin-top:39% ;
+     }
+    .staff .dElEd{
+        width: 410px;
+        height: 290px;
+    }
+}
+@media all and (max-width: 320px) {
+
+    .heading h1{
+        font-size: 20px;
+    
+    }
+    .heading h4{
+        font-size:15px;
+        margin-left: 25px;
+    }
+    .staff{
+        flex-wrap: wrap;
+
+    }
+    .staff .bEd{
+        width: 390px;
+        height: 250px;
+        margin-bottom:14%;
+        margin-left:5px;
+        margin-right: 3px;
+
+    }
+    .staff .bEd h3{
+       font-size: 30px;
+       margin-top: 40%;
+    }
+    .staff .dElEd h3{
+        font-size: 30px;
+        margin-top: 38%; 
+     }
+    .staff .dElEd{
+        width: 390px;
+        height: 250px;
+        margin-left: 5px;
+    }
+}
